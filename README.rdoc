@@ -1,0 +1,8 @@
+== Example Rails REST API 
+
+This was a quick example application focussed on creating a Rails API with Authentication & Authorization with Device.  I've found several solutions online but no full repositories.  
+
+The application handles authentication tokens for sessions, rather than using cookies.  A user's authentication token must be sent along with their user_id number when requesting an action (POST,PUT,DELETE) be done that requires their permission.
+
+Here we have a very simple rooms/messages application.  Right now the rooms functionality is functional, with a user having many rooms.
+
